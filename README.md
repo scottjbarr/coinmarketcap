@@ -7,7 +7,8 @@ Only functions I need have been added.
 
 ## Example Usage
 
-A binary has been provided to show some example usage for the "Quotes Latest" call.
+A `coinmarketcap-client` binary has been provided to show some example usage for the "Quotes Latest"
+call.
 
 ```
 $ API_KEY=xxx go run cmd/coinmarketcap-client/main.go --symbols BSV,ETH --convert AUD
