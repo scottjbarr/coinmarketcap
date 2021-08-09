@@ -40,7 +40,7 @@ func New(key string) (*Client, error) {
 		key:  key,
 		Host: Host,
 		HTTPClient: &http.Client{
-			Timeout: time.Second * 2,
+			Timeout: time.Second * 5,
 		},
 	}
 
